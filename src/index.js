@@ -1,6 +1,6 @@
-import React from 'react';
-import ReactDom from 'react-dom';
-import { Button } from 'antd';
-import Routes from './routes';
+import "@babel/polyfill";
+import React from "react";
+import ReactDom from "react-dom";
+import Routes from "./config/router";
 
-ReactDom.render(<Routes />, document.getElementById('root'));
+ReactDom.render(<Routes />, document.getElementById("root"));
